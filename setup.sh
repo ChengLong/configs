@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eo pipefail
 
 # This script is used to:
 #   Install Pathogen if necessary
