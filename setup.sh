@@ -66,7 +66,7 @@ if [ -d "$HOME/.vim/bundle/vim-colors-solarized" ]; then
   echo "Vim Solarized is already installed"
 else
   echo "Installing Vim Solarized"
-  git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+  git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 fi
 
 # install nerdtree
