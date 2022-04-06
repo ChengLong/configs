@@ -2,7 +2,7 @@
 
 Bored of setting up machines for development again and again? It's *tedious*.
 These are some dotfiles that I use very often. If you like [zsh](http://www.zsh.org/), [Vim](http://www.vim.org/), [Solarized](http://ethanschoonover.com/solarized) and [tmux](http://tmux.sourceforge.net/), just run
-(prerequisites: curl, git, vim, zsh)
+(prerequisites: curl, git, vim, zsh, tmux)
 
     curl https://raw.githubusercontent.com/ChengLong/configs/master/setup.sh | zsh
 

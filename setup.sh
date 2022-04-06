@@ -22,6 +22,7 @@
 #   2. git
 #   3. zsh
 #   4. vim
+#   5. tmux
 
 exists() {
   if hash $1 2>/dev/null; then
