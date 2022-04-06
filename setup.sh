@@ -14,7 +14,6 @@ set -eo pipefail
 #   Set .vimrc to https://raw.github.com/ChengLong/configs/master/.vimrc
 #   Set .zsh_aliases to https://raw.github.com/ChengLong/configs/master/.zsh_aliases
 #   Set .zshrc to https://raw.github.com/ChengLong/configs/master/.zshrc
-#   Set pygmalion.zsh-theme to https://raw.github.com/ChengLong/configs/master/pygmalion.zsh-theme
 #   Source .zshrc
 #   Source tmux config
 #
@@ -132,9 +131,6 @@ curl -LSso ~/.zsh_aliases https://raw.github.com/ChengLong/configs/master/.zsh_a
 
 # copy .zshrc
 curl -LSso ~/.zshrc https://raw.github.com/ChengLong/configs/master/.zshrc
-
-# copy pygmalion.zsh-theme
-curl -LSso ~/.oh-my-zsh/themes/pygmalion.zsh-theme https://raw.github.com/ChengLong/configs/master/pygmalion.zsh-theme
 
 # copy .tmux.conf
 curl -LSso ~/.tmux.conf https://raw.github.com/ChengLong/configs/master/.tmux.conf
